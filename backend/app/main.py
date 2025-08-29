@@ -1,20 +1,20 @@
-# backend/app/main.py
-
 from fastapi import FastAPI
-from .routers import webhooks
-from . import models
-from .database import engine
+from app.db.base import Base
+from app.db.session import engine
+from app.api.endpoints import webhooks
 
+# SQLAlchemy가 models.py를 보고 DB에 테이블이 없으면 생성해줍니다.
+Base.metadata.create_all(bind=engine)
 
-models.Base.metadata.create_all(bind=engine)
+app = FastAPI(
+    title="ORB AI Backend API",
+    description="Supabase 인증과 연동되는 FastAPI 백엔드 서버입니다.",
+    version="0.1.0"
+)
 
-
-app = FastAPI()
-
-
+# webhooks.py에 정의된 모든 API 경로를 우리 앱에 공식적으로 등록합니다.
 app.include_router(webhooks.router, prefix="/api/v1/webhooks", tags=["Webhooks"])
 
-# 서버가 잘 작동하는지 확인할 수 있는 기본 경로입니다.
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the ORB AI Backend API"}
+    return {"message": "Welcome to the ORB AI Backend!"}

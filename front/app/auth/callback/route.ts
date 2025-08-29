@@ -1,3 +1,5 @@
+// front/app/auth/callback/route.ts
+
 import { createClient } from '@/lib/supabase/server';
 import { NextResponse } from 'next/server';
 import { cookies } from 'next/headers';
@@ -56,7 +58,7 @@ export async function GET(request: Request) {
             refresh_token: encryptedRefreshToken,
             expires_at: new Date(session.expires_at! * 1000).toISOString(),
           },
-          { onConflict: 'user_id' } // onConflict 옵션 추가
+          { onConflict: 'user_id' } // user_id를 기준으로 중복 검사
         );
 
       if (tokenError) {

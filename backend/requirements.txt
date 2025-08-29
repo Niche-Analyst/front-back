@@ -1,8 +1,5 @@
-# backend/requirements.txt
-
 fastapi
 uvicorn[standard]
 python-dotenv
+sqlalchemy
 mariadb
-pydantic
-SQLAlchemy
