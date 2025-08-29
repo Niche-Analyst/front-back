@@ -1,0 +1,36 @@
+services:
+  # 1. 백엔드 서비스 (FastAPI)
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: fastapi_backend
+    restart: unless-stopped
+    # 프론트엔드의 .env.local 파일을 참조하여 DB 및 기타 환경 변수 로드
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      # 실시간 코드 동기화
+      - ./backend:/app
+
+  # 2. 프론트엔드 서비스 (Next.js)
+  frontend:
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    container_name: nextjs_frontend
+    restart: unless-stopped
+    # 프론트엔드 .env.local 파일 사용
+    env_file:
+      - ./front/.env.local
+    ports:
+      - "3000:3000"
+    volumes:
+      # 실시간 코드 동기화
+      - ./front:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - backend
