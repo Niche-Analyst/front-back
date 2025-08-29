@@ -1,0 +1,8 @@
+# backend/requirements.txt
+
+fastapi
+uvicorn[standard]
+python-dotenv
+mariadb
+pydantic
+SQLAlchemy
