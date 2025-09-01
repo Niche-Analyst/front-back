@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.db.base import Base
 from app.db.session import engine
 from app.api.endpoints import webhooks
+from app.api.endpoints import upload
 
 # SQLAlchemy가 models.py를 보고 DB에 테이블이 없으면 생성해줍니다.
 Base.metadata.create_all(bind=engine)
@@ -18,3 +19,5 @@ app.include_router(webhooks.router, prefix="/api/v1/webhooks", tags=["Webhooks"]
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the ORB AI Backend!"}
+
+app.include_router(upload.router)

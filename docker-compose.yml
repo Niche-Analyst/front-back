@@ -10,7 +10,7 @@ services:
     env_file:
       - ./backend/.env
     ports:
-      - "8000:8000"
+      - "8001:8000"
     volumes:
       # 실시간 코드 동기화
       - ./backend:/app
@@ -26,7 +26,7 @@ services:
     env_file:
       - ./front/.env.local
     ports:
-      - "3000:3000"
+      - "3001:3000"
     volumes:
       # 실시간 코드 동기화
       - ./front:/app
