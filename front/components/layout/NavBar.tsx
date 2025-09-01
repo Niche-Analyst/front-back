@@ -70,12 +70,17 @@ const NavBar = () => {
         {user ? (
           // 로그인 상태
           <div className="flex items-center gap-4">
-            <span className="text-sm font-semibold">{user.email}</span>
+            <Link href="/result/dashboard">
+              <button className="px-4 py-2 bg-blue-500 text-white rounded-lg font-semibold hover:bg-blue-600 transition-colors">
+                대시보드
+              </button>
+            </Link>
+            <span className="text-sm font-semibold text-gray-600">{user.email}</span>
             <button
               onClick={handleLogout}
-              className="px-5 py-2 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600 transition-transform cursor-pointer"
+              className="px-4 py-2 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600 transition-colors"
             >
-              Logout
+              로그아웃
             </button>
           </div>
         ) : (
