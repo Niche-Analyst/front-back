@@ -71,11 +71,12 @@
 <details>
   <summary> ☑️ WBS 전체 일정 보러가기 </summary>
   <br/>
-  <a href="<WBS_엑셀파일_링크>" target="_blank"> 📂 WBS_일정.xlsx </a>
-</details>
+  
+  <a href="./docs/WBS.xlsx" target="_blank"> 📂 WBS_일정.xlsx </a>
+  
+  </details>
 
 <br/>
-
 ---
 
 ## 기술 스택 (Tech Stack)
