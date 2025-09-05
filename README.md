@@ -72,7 +72,7 @@
   <summary> ☑️ WBS 전체 일정 보러가기 </summary>
   <br/>
   
-  <a href="./docs/1조 WBS.xlsx" target="_blank"> 📂 WBS_일정.xlsx </a>
+  <a href="./docs/WBS.xlsx" target="_blank"> 📂 WBS_일정.xlsx </a>
   
   </details>
 
