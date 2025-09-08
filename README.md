@@ -8,7 +8,7 @@
 
 <br/>
 <div align="center">
-  <table border="0">
+  <table border="0" style="border-spacing: 0;">
     <tr align="center">
       <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; vertical-align: top;">
         <img src="https://github.com/user-attachments/assets/45784a0c-8937-4d80-b2ad-6b9788647b5a" width="100px" alt="박찬"/>
