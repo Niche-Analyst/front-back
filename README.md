@@ -162,7 +162,6 @@
 * **`industry_benchmark`**: 업종별 경쟁 분석의 기준이 되는 벤치마크 데이터 테이블
 * **`ppl_performance_history`**: 시계열 분석 및 트렌드 예측을 위한 과거 PPL 성과 이력 테이블
 </details>
-<br/>
 
 
 <details>
