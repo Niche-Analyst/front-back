@@ -187,14 +187,16 @@
   * **AI 기반 보고서 생성**
         * **AI 이중 구조**: 1차로 **Gemini-2.5-flash-lite**가 데이터를 신속하게 구조화하고(30초), 2차로 **Skywork API**가 다중 에이전트를 통해 심층 분석 리포트를 생성합니다(10-15분).
         * **8단계 리포트 파이프라인**: AI가 아래 8단계에 따라 체계적인 분석 보고서를 자동으로 생성합니다.
-            1.  `요약 (Executive Summary)`
-            2.  `시장 분석 (Market Analysis)`
-            3.  `경쟁사 비교 (Competitive Analysis)`
-            4.  `타겟 오디언스 분석 (Target Audience Analysis)`
-            5.  `PPL 성과 분석 (PPL Performance Analysis)`
-            6.  `ROI 및 비용 효율성 (ROI & Cost Effectiveness)`
-            7.  `전략적 권고사항 (Strategic Recommendations)`
-            8.  `향후 계획 (Future Planning)`
+          <ol>
+          <li><code>요약 (Executive Summary)</code></li>
+          <li><code>시장 분석 (Market Analysis)</code></li>
+          <li><code>경쟁사 비교 (Competitive Analysis)</code></li>
+          <li><code>타겟 오디언스 분석 (Target Audience Analysis)</code></li>
+          <li><code>PPL 성과 분석 (PPL Performance Analysis)</code></li>
+          <li><code>ROI 및 비용 효율성 (ROI & Cost Effectiveness)</code></li>
+          <li><code>전략적 권고사항 (Strategic Recommendations)</code></li>
+          <li><code>향후 계획 (Future Planning)</code></li>
+          </ol>
 
   * **인터랙티브 대시보드 및 시각화**
         * **실시간 모니터링**: KPI 대시보드를 통해 실시간 성과를 추적하고, 드릴다운 방식으로 상세 데이터를 탐색할 수 있습니다. 
