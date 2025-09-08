@@ -110,7 +110,7 @@ Markdown
        |
        ▼
 [완성된 전략 보고서 (PDF, PowerPoint, Web)]
-'''
+```
 
 
 <br/>
