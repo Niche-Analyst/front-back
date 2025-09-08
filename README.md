@@ -165,7 +165,7 @@
 
 
 <details>
-  <summary> ✅ 기능 및 비기능 요구사항 전체 보기 </summary>
+  <summary> ✅ **기능 및 비기능 요구사항 전체 보기** </summary>
 
   ### 기능 요구사항 (Functional Requirements)
   
