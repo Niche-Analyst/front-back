@@ -1,4 +1,4 @@
-# PPL-Analytics: 데이터 기반 PPL 마크ㅔ팅 성과 분석 서비스
+# PPL-Analytics: 데이터 기반 PPL 마케팅 성과 분석 서비스
 
 **"데이터로 증명하는 PPL의 힘, 당신의 마케팅을 Analytics로 업그레이드하다."**
 
@@ -7,6 +7,60 @@
 ![image](https://github.com/user-attachments/assets/f0a1e527-1157-42fa-9633-95a859157474)
 
 <br/>
+
+<table border="0">
+  <tr align="center">
+    <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+      <img src="아이콘_URL_경로" width="100px" alt="박찬"/>
+      <br />
+      <strong>박찬</strong>
+      <br />
+      <small>팀장/프론트엔드, PM</small>
+      <br />
+      <small>전체 일정 관리 및<br/>프론트엔드 개발 총괄</small>
+    </td>
+    <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+      <img src="아이콘_URL_경로" width="100px" alt="김명재"/>
+      <br />
+      <strong>김명재</strong>
+      <br />
+      <small>데이터 분석/시각화</small>
+      <br />
+      <small>ROI 지표 설계 및<br/>데이터 시각화 담당</small>
+    </td>
+    <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+      <img src="아이콘_URL_경로" width="100px" alt="오요셉"/>
+      <br />
+      <strong>오요셉</strong>
+      <br />
+      <small>백엔드</small>
+      <br />
+      <small>API 및 시스템 아키텍처<br/>설계 구축</small>
+    </td>
+    <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
+      <img src="아이콘_URL_경로" width="100px" alt="유승환"/>
+      <br />
+      <strong>유승환</strong>
+      <br />
+      <small>문서작업</small>
+      <br />
+      <small>자료 정리 및<br/>최종 문서화 담당</small>
+    </td>
+    <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; border-style: dashed;">
+      <img src="아이콘_URL_경로" width="100px" alt="윤준희"/>
+      <br />
+      <strong>윤준희</strong>
+      <br />
+      <small>멘토</small>
+      <br />
+      <small>플로우, UI, 데이터 정제,<br/>Q&A 총괄 지원</small>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
 
 ## 1. 프로젝트 개요
 
@@ -55,99 +109,4 @@
   * **고급 시각화 기능**: D3.js 기반 동적 차트, 히트맵, 워드클라우드, 트렌드라인
 
   ### 🔹 2.1.6 고급 내보내기 및 공유
-  * **다중 포맷 지원**: PDF, PowerPoint, Excel 포맷으로 리포트 자동 생성
-  * **웹 링크 공유**: 실시간 업데이트가 반영되는 웹 기반 리포트 공유
-
-  ### 🔹 2.1.7 API 및 시스템 통합
-  * **RESTful API 설계**: 인증(`auth`), 대시보드(`dashboard`), 분석(`analysis`), 리포트(`report`) API 제공
-  * **외부 시스템 연동**: 방송사, 소셜미디어, 검색 트렌드, 광고 플랫폼 API 연동
-</details>
-
-<details>
-  <summary> ✅ 비기능 요구사항 (Non-functional Requirements) </summary>
-  <br/>
-
-  ### 🔹 2.2.1 보안 및 컴플라이언스
-  * **데이터 보호**: AES-256 저장 암호화, TLS 1.3 전송 암호화 적용
-  * **데이터 거버넌스**: 데이터 생명주기 관리 및 자동 삭제 정책 수립
-  * **접근 제어**: 최소 권한 원칙(Principle of least privilege) 적용
-  
-  ### 🔹 2.2.2 성능 및 확장성
-  * **성능 목표**
-    * **API 응답 시간**: 3초 이내
-    * **리포트 생성**: 5분 이내 완료 (복잡 분석 시 10분 이내)
-</details>
-
-<br/>
-
----
-
-## 🤖 AI 아키텍처 및 리포트 생성 파이프라인
-
-본 서비스는 **이중 AI 모델(Dual AI Model)** 과 **카테고리별 프롬프트 오케스트레이션**을 통해 분석의 속도와 깊이를 모두 확보합니다.
-
-### 🔹 이중 AI 모델 전략
-
-| 모델 | 역할 | 처리 시간 | 특징 |
-| :--- | :--- | :--- | :--- |
-| **1️⃣ Gemini-2.5-flash-lite** | 원시 데이터 구조화, 초기 인사이트 추출, 프롬프트 전처리 | **30초** | 빠른 속도와 비용 효율성 최적화 |
-| **2️⃣ Skywork API** | 다중 에이전트를 활용한 심층 전략 분석 및 최종 보고서 생성 | **10-15분** | 다중 에이전트 검증을 통한 고품질 분석 및 권고사항 도출 |
-
-<br/>
-
----
-
-## 🏗️ 시스템 아키텍처 및 데이터 모델
-
-### 🔹 데이터베이스 스키마
-서비스의 데이터는 분석 목적에 따라 체계적으로 설계된 5개의 핵심 테이블로 관리됩니다.
-
-* **`fact_ppl_campaign`**: 캠페인별 성과, 비용, ROI 등 29개 핵심 지표를 관리하는 팩트 테이블
-* **`iptv_user_profile`**: 시청자의 인구통계학적 정보와 디지털 행동 특성을 관리하는 프로필 테이블
-* **`drama_program_metadata`**: 프로그램별 상세 시청률 메타데이터
-* **`industry_benchmark`**: 업종별 경쟁 분석의 기준이 되는 벤치마크 데이터 테이블
-* **`ppl_performance_history`**: 시계열 분석 및 트렌드 예측을 위한 과거 PPL 성과 이력 테이블
-
-<br/>
-
----
-
-## 🛠️ 기술 스택 (Tech Stack)
-
-| 영역 | 기술 스택 | 버전 | 선택 근거 |
-| :--- | :--- | :--- | :--- |
-| **Frontend** | React | 19.1 | 최신 Concurrent Features, Suspense 최적화 |
-| | Next.js | 15.4 | App Router, Server Components, 향상된 SSR |
-| | Tailwind CSS | 4.1 | 유틸리티 우선 CSS, 일관된 디자인 시스템 |
-| | React Query | 5.3 | 서버 상태 관리, 캐싱 최적화 |
-| **Backend** | FastAPI | 0.116 | 높은 성능, 자동 API 문서, 타입 힌팅 |
-| | Python | 3.11 | 최신 성능 개선, 타입 힌팅 강화 |
-| | Pydantic | 2.11 | 데이터 검증, 직렬화, FastAPI 완전 통합 |
-| | SQLAlchemy | 2.0+ | 비동기 ORM, 성능 최적화 |
-| **Database** | MariaDB | Latest | AWS RDS, 관리형 서비스, 확장성 |
-| **Cloud & Storage** | AWS S3 | - | 파일 저장, CDN 연동, 보안 |
-| | AWS RDS | - | 관리형 데이터베이스, 백업/복구 |
-| | AWS CloudFront | - | CDN, 글로벌 배송 최적화 |
-| **Authentication** | Supabase Auth | 2.56 | 소셜 로그인, JWT, 사용자 관리 |
-| **AI/ML** | Gemini-2.5-flash-lite | Latest | 빠른 데이터 전처리, 비용 최적화 |
-| | Skywork API | Latest | 고품질 보고서 생성, 에이전트 AI |
-| | Xgboost | 3.0.4 | 머신러닝 |
-| | Scikit-learn | 1.71 | 머신러닝 |
-| **Data Visualization**| Matplotlib | 3.10 | 정적 차트 생성 |
-| **Development** | TypeScript | 5.0+ | 타입 안전성, 개발 효율성 |
-| | Eslint | 3+ | 코드 스타일 일관성 유지, 오류 방지 |
-
-<br/>
-
----
-## 🎯 프로젝트 목표 및 성공 지표
-
-### 🔹 기술적 목표
-* **API 응답 시간**: 모든 API 엔드포인트에서 **3초 이내**의 응답 속도를 목표로 합니다.
-* **리포트 생성 시간**: 복잡한 분석을 포함하여 **10분 이내**에 최종 보고서 생성을 완료합니다.
-* **시스템 가용성**: 월별 **99.9% 이상**의 시스템 가용성을 유지합니다.
-
-### 🔹 비즈니스 목표
-* **분석 시간 단축**: 기존 2-3주 소요되던 수작업 분석을 **5~10분** 내외의 자동 리포트로 대체하여 분석 효율을 **99%** 개선합니다.
-* **의사결정 정확도 향상**: 데이터 기반의 객관적 분석을 통해 PPL 캠페인 성과 예측 정확도를 **80% 이상**으로 높입니다.
-* **ROI 개선**: 실시간 성과 추적 및 최적화 제안을 통해 광고주의 ROI를 **30% 이상** 개선하는 것을 목표로 합니다.
+  * **다중 포맷 지원**:
