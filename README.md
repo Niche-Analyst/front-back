@@ -130,28 +130,37 @@
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
-| 영역 | 기술 스택 | 버전 | 선택 근거 |
-| :--- | :--- | :--- | :--- |
-| **Frontend** | React | 19.1 | 최신 Concurrent Features, Suspense 최적화 |
-| | Next.js | 15.4 | App Router, Server Components, 향상된 SSR |
-| | Tailwind CSS | 4.1 | 유틸리티 우선 CSS, 일관된 디자인 시스템 |
-| | React Query | 5.3 | 서버 상태 관리, 캐싱 최적화 |
-| **Backend** | FastAPI | 0.116 | 높은 성능, 자동 API 문서, 타입 힌팅 |
-| | Python | 3.11 | 최신 성능 개선, 타입 힌팅 강화 |
-| | Pydantic | 2.11 | 데이터 검증, 직렬화, FastAPI 완전 통합 |
-| | SQLAlchemy | 2.0+ | 비동기 ORM, 성능 최적화 |
-| **Database** | MariaDB | Latest | AWS RDS, 관리형 서비스, 확장성 |
-| **Cloud & Storage** | AWS S3 | - | 파일 저장, CDN 연동, 보안 |
-| | AWS RDS | - | 관리형 데이터베이스, 백업/복구 |
-| | AWS CloudFront | - | CDN, 글로벌 배송 최적화 |
-| **Authentication** | Supabase Auth | 2.56 | 소셜 로그인, JWT, 사용자 관리 |
-| **AI/ML** | Gemini-2.5-flash-lite | Latest | 빠른 데이터 전처리, 비용 최적화 |
-| | Skywork API | Latest | 고품질 보고서 생성, 에이전트 AI |
-| | Xgboost | 3.0.4 | 머신러닝 |
-| | Scikit-learn | 1.71 | 머신러닝 |
-| **Data Visualization**| Matplotlib | 3.10 | 정적 차트 생성 |
-| **Development** | TypeScript | 5.0+ | 타입 안전성, 개발 효율성 |
-| | Eslint | 3+ | 코드 스타일 일관성 유지, 오류 방지 |
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=flat&logo=react-query&logoColor=white)
+
+### Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat)
+
+### Database & Storage
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat&logo=amazon-rds&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
+![Amazon CloudFront](https://img.shields.io/badge/Amazon_CloudFront-FF9900?style=flat&logo=amazon-cloudfront&logoColor=white)
+
+### Authentication
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+
+### AI & ML
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E77D3?style=flat&logo=google-gemini&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931B?style=flat&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-316691?style=flat)
+![Skywork API](https://img.shields.io/badge/Skywork_API-1E293B?style=flat)
+
+### Development & Tools
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white)스타일 일관성 유지, 오류 방지 |
 
 <br/>
 
