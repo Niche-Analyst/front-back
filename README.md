@@ -11,8 +11,7 @@
 <table border="0">
   <tr align="center">
     <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-      <img src="<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/abb1924e-1cec-47bd-ae55-60649cc7422b" />
-" width="100px" alt="박찬"/>
+      <img src="src="https://github.com/user-attachments/assets/abb1924e-1cec-47bd-ae55-60649cc7422b" alt="박찬"/>
       <br />
       <strong>박찬</strong>
       <br />
