@@ -141,15 +141,24 @@
 ## 기술 스택 (Tech Stack)
 
 | 영역 | 기술 스택 | 버전 | 선택 근거 |
-| :--- | :--- | :--- | :--- |
-| **Frontend** | React | 19.1 | 최신 Concurrent Features, Suspense 최적화 |
-| | Next.js | 15.4 | App Router, Server Components, 향상된 SSR |
-| | Tailwind CSS | 4.1 | 유틸리티 우선 CSS, 일관된 디자인 시스템 |
-| **Backend** | FastAPI | 0.116 | 높은 성능, 자동 API 문서, 타입 힌팅 |
-| | Python | 3.11 | 최신 성능 개선, 타입 힌팅 강화 |
-| **Database** | MariaDB | Latest | AWS RDS, 관리형 서비스, 확장성 |
-| | SQLAlchemy | 2.0+ | 비동기 ORM, 성능 최적화 |
-| **Cloud** | AWS S3, RDS | - | 파일 저장 및 관리형 데이터베이스 |
-| **Auth** | Supabase Auth | 2.56 | 소셜 로그인, JWT, 사용자 관리 |
-| **AI/ML** | Gemini-2.5-flash-lite | Latest | 빠른 데이터 전처리, 비용 최적화 |
-| | Skywork API | Latest | 고품질 보고서 생성, 에이전트 AI |
+|------|-----------|------|-----------|
+| Frontend | React | 19.1 | 최신 Concurrent Features, Suspense 최적화 |
+|         | Next.js | 15.4 | App Router, Server Components, 향상된 SSR |
+|         | Tailwind CSS | 4.1 | 유틸리티 우선 CSS, 일관된 디자인 시스템 |
+|         | React Query | 5.3 | 서버 상태 관리, 캐싱 최적화 |
+| Backend | FastAPI | 0.116 | 높은 성능, 자동 API 문서, 타입 힌팅 |
+|         | Python | 3.11-slim | 최신 성능 개선, 타입 힌팅 강화 |
+|         | Pydantic | 2.11 | 데이터 검증, 직렬화, FastAPI 완전 통합 |
+|         | SQLAlchemy | 2.0+ | 비동기 ORM, 성능 최적화 |
+| Database | MariaDB | Latest | AWS RDS, 관리형 서비스, 확장성 |
+| Cloud & Storage | AWS S3 | - | 파일 저장, CDN 연동, 보안 |
+|         | AWS RDS | - | 관리형 데이터베이스, 백업/복구 |
+|         | AWS CloudFront | - | CDN, 글로벌 배송 최적화 |
+| Authentication | Supabase Auth | 2.56 | 소셜 로그인, JWT, 사용자 관리 |
+| AI/ML | Gemini-2.5-flashlite | Latest | 빠른 데이터 전처리, 비용 최적화 |
+|         | Skywork API | Latest | 고품질 보고서 생성, 에이전트 AI |
+|         | Xgboost | 3.0.4 | 머신러닝 |
+|         | Scikit-learn | 1.71 | 머신러닝 |
+| Data Visualization | Matplotlib | 3.10 | 정적 차트 생성 |
+| Development | TypeScript | 5.0+ | 타입 안전성, 개발 효율성 |
+|         | Eslint | 3+ | 유닛 테스트, React 테스팅 |
