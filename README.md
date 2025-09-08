@@ -6,9 +6,9 @@
 
 ## 1. 프로젝트 개요
 
-[cite_start]**PPL-Analytics**는 감정적 판단과 추측에 의존하던 기존의 광고 성과 측정 방식을 **데이터 기반의 정량적 분석 체계로 혁신**하는 서비스입니다[cite: 6].
+**PPL-Analytics**는 감정적 판단과 추측에 의존하던 기존의 광고 성과 측정 방식을 **데이터 기반의 정량적 분석 체계로 혁신**하는 서비스입니다.
 
-[cite_start]실제 시청자 행동 데이터와 AI 분석을 통해 광고주가 보다 전략적이고 객관적인 의사결정을 내릴 수 있도록 지원하며 [cite: 7][cite_start], AI 기반 자동 리포트 생성으로 분석 시간을 80% 단축시키는 것을 목표로 합니다[cite: 10].
+실제 시청자 행동 데이터와 AI 분석을 통해 광고주가 보다 전략적이고 객관적인 의사결정을 내릴 수 있도록 지원하며, AI 기반 자동 리포트 생성으로 분석 시간을 80% 단축시키는 것을 목표로 합니다.
 
 <br/>
 
@@ -140,14 +140,14 @@
 
 | 영역 | 기술 스택 | 버전 | 선택 근거 |
 | :--- | :--- | :--- | :--- |
-| **Frontend** | React | 19.1 | [cite_start]최신 Concurrent Features, Suspense 최적화 [cite: 233] |
-| | Next.js | 15.4 | [cite_start]App Router, Server Components, 향상된 SSR [cite: 233] |
-| | Tailwind CSS | 4.1 | [cite_start]유틸리티 우선 CSS, 일관된 디자인 시스템 [cite: 233] |
-| **Backend** | FastAPI | 0.116 | [cite_start]높은 성능, 자동 API 문서, 타입 힌팅 [cite: 233] |
-| | Python | 3.11 | [cite_start]최신 성능 개선, 타입 힌팅 강화 [cite: 233] |
-| **Database** | MariaDB | Latest | [cite_start]AWS RDS, 관리형 서비스, 확장성 [cite: 233] |
-| | SQLAlchemy | 2.0+ | [cite_start]비동기 ORM, 성능 최적화 [cite: 233] |
-| **Cloud** | AWS S3, RDS | - | [cite_start]파일 저장 및 관리형 데이터베이스 [cite: 233] |
-| **Auth** | Supabase Auth | 2.56 | [cite_start]소셜 로그인, JWT, 사용자 관리 [cite: 233] |
-| **AI/ML** | Gemini-2.5-flash-lite | Latest | [cite_start]빠른 데이터 전처리, 비용 최적화 [cite: 233] |
-| | Skywork API | Latest | [cite_start]고품질 보고서 생성, 에이전트 AI [cite: 233] |
+| **Frontend** | React | 19.1 | 최신 Concurrent Features, Suspense 최적화 |
+| | Next.js | 15.4 | App Router, Server Components, 향상된 SSR |
+| | Tailwind CSS | 4.1 | 유틸리티 우선 CSS, 일관된 디자인 시스템 |
+| **Backend** | FastAPI | 0.116 | 높은 성능, 자동 API 문서, 타입 힌팅 |
+| | Python | 3.11 | 최신 성능 개선, 타입 힌팅 강화 |
+| **Database** | MariaDB | Latest | AWS RDS, 관리형 서비스, 확장성 |
+| | SQLAlchemy | 2.0+ | 비동기 ORM, 성능 최적화 |
+| **Cloud** | AWS S3, RDS | - | 파일 저장 및 관리형 데이터베이스 |
+| **Auth** | Supabase Auth | 2.56 | 소셜 로그인, JWT, 사용자 관리 |
+| **AI/ML** | Gemini-2.5-flash-lite | Latest | 빠른 데이터 전처리, 비용 최적화 |
+| | Skywork API | Latest | 고품질 보고서 생성, 에이전트 AI |
