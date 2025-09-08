@@ -7,33 +7,44 @@
 ![image](https://github.com/user-attachments/assets/f0a1e527-1157-42fa-9633-95a859157474)
 
 <br/>
-
 <div align="center">
   <table border="0" style="border-collapse: separate; border-spacing: 10px;">
     <tr align="center">
       <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; vertical-align: top;">
         <img src="https://github.com/user-attachments/assets/45784a0c-8937-4d80-b2ad-6b9788647b5a" width="100px" alt="박찬"/>
-        <p style="margin-top: 10px; margin-bottom: 5px;"><strong>박찬</strong></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; margin-bottom: 5px; font-size: 90%;"><small>팀장/프론트엔드, PM</small></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; font-size: 90%;"><small>전체 일정 관리 및<br/>프론트엔드 개발 총괄</small></p>
+        <br /><br />
+        <strong>박찬</strong>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>팀장/프론트엔드, PM</small>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>전체 일정 관리 및<br/>프론트엔드 개발 총괄</small>
       </td>
       <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; vertical-align: top;">
         <img src="https://github.com/user-attachments/assets/27e01010-779d-4703-82ae-e5e3a852a578" width="100px" alt="김명재"/>
-        <p style="margin-top: 10px; margin-bottom: 5px;"><strong>김명재</strong></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; margin-bottom: 5px; font-size: 90%;"><small>데이터 분석/시각화</small></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; font-size: 90%;"><small>ROI 지표 설계 및<br/>데이터 시각화 담당</small></p>
+        <br /><br />
+        <strong>김명재</strong>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>데이터 분석/시각화</small>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>ROI 지표 설계 및<br/>데이터 시각화 담당</small>
       </td>
       <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; vertical-align: top;">
         <img src="https://github.com/user-attachments/assets/8b403db5-7694-4089-89a6-5af856ad71d7" width="100px" alt="오요셉"/>
-        <p style="margin-top: 10px; margin-bottom: 5px;"><strong>오요셉</strong></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; margin-bottom: 5px; font-size: 90%;"><small>백엔드</small></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; font-size: 90%;"><small>API 및 시스템 아키텍처<br/>설계 구축</small></p>
+        <br /><br />
+        <strong>오요셉</strong>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>백엔드</small>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>API 및 시스템 아키텍처<br/>설계 구축</small>
       </td>
       <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; vertical-align: top;">
         <img src="https://github.com/user-attachments/assets/88810eba-be69-42f1-bede-fd369eddd642" width="100px" alt="유승환"/>
-        <p style="margin-top: 10px; margin-bottom: 5px;"><strong>유승환</strong></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; margin-bottom: 5px; font-size: 90%;"><small>문서작업</small></p>
-        <p style="border: 1px solid #eee; border-radius: 5px; padding: 5px; font-size: 90%;"><small>자료 정리 및<br/>최종 문서화 담당</small></p>
+        <br /><br />
+        <strong>유승환</strong>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>문서작업</small>
+        <hr style="border: 1px solid #eee; margin: 8px 0;" />
+        <small>자료 정리 및<br/>최종 문서화 담당</small>
       </td>
     </tr>
   </table>
