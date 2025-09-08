@@ -4,7 +4,7 @@
 
 <br/>
 
-![](./8efe6a0a-d30d-4211-9201-bee163741181.png)
+![image](https://github.com/user-attachments/assets/f0a1e527-1157-42fa-9633-95a859157474)
 
 <br/>
 
