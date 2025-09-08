@@ -1,7 +1,7 @@
 # PPL-Analytics: 데이터 기반 PPL 마케팅 성과 분석 서비스
 
 <div align="center">
-**"데이터로 증명하는 PPL의 힘, 당신의 마케팅을 Analytics로 업그레이드하다."**
+"데이터로 증명하는 PPL의 힘, 당신의 마케팅을 Analytics로 업그레이드하다."
 <div/>
 
 <br/>
