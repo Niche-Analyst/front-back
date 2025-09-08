@@ -165,7 +165,6 @@
 <br/>
 
 ---
-## 📋 상세 요구사항 (Detailed Requirements)
 
 <details>
   <summary> ✅ 기능 및 비기능 요구사항 전체 보기 </summary>
