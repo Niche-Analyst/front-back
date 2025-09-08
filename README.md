@@ -7,10 +7,6 @@
 ![image](https://github.com/user-attachments/assets/f0a1e527-1157-42fa-9633-95a859157474)
 
 <br/>
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/27e01010-779d-4703-82ae-e5e3a852a578" />
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/88810eba-be69-42f1-bede-fd369eddd642" />
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/45784a0c-8937-4d80-b2ad-6b9788647b5a" />
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/b0bb4e16-982e-453e-809c-8e6ced5f2773" />
 
 <table border="0">
   <tr align="center">
