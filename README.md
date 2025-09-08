@@ -164,11 +164,9 @@
 </details>
 <br/>
 
----
 
 <details>
   <summary> ✅ 기능 및 비기능 요구사항 전체 보기 </summary>
-  <br/>
 
   ### 기능 요구사항 (Functional Requirements)
   
