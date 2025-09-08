@@ -1,7 +1,6 @@
-<div align="center">
-  <h1>PPL-Analytics: 데이터 기반 PPL 마케팅 성과 분석 서비스</h1>
-  <p><strong>"데이터로 증명하는 PPL의 힘, 당신의 마케팅을 Analytics로 업그레이드하다."</strong></p>
-</div>
+# PPL-Analytics: 데이터 기반 PPL 마케팅 성과 분석 서비스
+
+**"데이터로 증명하는 PPL의 힘, 당신의 마케팅을 Analytics로 업그레이드하다."**
 
 <br/>
 
@@ -9,7 +8,6 @@
 
 <br/>
 
----
 ## 👥 팀 소개
 <div align="center">
   <table border="0" style="border-spacing: 0;">
@@ -48,6 +46,48 @@
 <br/>
 
 ---
+
+## 🛠️ 기술 스택 (Tech Stack)
+
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=flat&logo=react-query&logoColor=white)
+
+### Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat)
+
+### Database & Storage
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon_RDS-527FFF?style=flat&logo=amazon-rds&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
+![Amazon CloudFront](https://img.shields.io/badge/Amazon_CloudFront-FF9900?style=flat&logo=amazon-cloudfront&logoColor=white)
+
+### Authentication
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+
+### AI & ML
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E77D3?style=flat&logo=google-gemini&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931B?style=flat&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-316691?style=flat)
+![Skywork API](https://img.shields.io/badge/Skywork_API-1E293B?style=flat)
+
+### Development & Tools
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white)
+
+<br/>
+
+---
+
+<details>
+<summary><strong>📄 프로젝트 상세 내용 보기 (Click to see Project Details)</strong></summary>
+<br>
 
 ## 📖 프로젝트 개요
 
