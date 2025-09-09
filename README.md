@@ -124,6 +124,7 @@
 
 <details>
 <summary><strong>🏗️ 아키텍처 및 데이터 모델 상세보기</strong></summary>
+  ![시스템 아키텍처 및 데이터 흐름](https://i.imgur.com/3f8j9sQ.png)
 <br>
 
 ### 🔹 AI 아키텍처
