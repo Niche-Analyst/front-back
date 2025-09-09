@@ -124,9 +124,10 @@
 
 <details>
 <summary><strong>🏗️ 아키텍처 및 데이터 모델 상세보기</strong></summary>
-  ![시스템 아키텍처 및 데이터 흐름](https://i.imgur.com/3f8j9sQ.png)
 <br>
-
+<p align="center">
+  <img src="https://i.imgur.com/3f8j9sQ.png" alt="시스템 아키텍처 및 데이터 흐름" width="800">
+</p>
 ### 🔹 AI 아키텍처
 본 서비스는 **이중 AI 모델(Dual AI Model)** 과 **카테고리별 프롬프트 오케스트레이션**을 통해 분석의 속도와 깊이를 모두 확보합니다.
 
