@@ -9,7 +9,6 @@
 <br/>
 
 ## 👥 팀 소개
-<div align="center">
   <table border="0" style="border-spacing: 0;">
     <tr align="center">
       <td style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; vertical-align: top; width: 180px;">
@@ -42,7 +41,6 @@
       </td>
     </tr>
   </table>
-</div>
 <br/>
 
 ---
