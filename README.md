@@ -44,6 +44,16 @@
 <br/>
 
 ---
+## 🎬 시연 영상
+
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/0658e078-9759-4463-b0e6-33533c6c5c59">
+    <img src="https://img.shields.io/badge/▶️%20Demo%20Video-Click%20to%20Play-red?style=for-the-badge&logo=youtube" alt="Demo Video"/>
+  </a>
+</p>
+
+
+---
 
 ## 🛠️ 기술 스택 (Tech Stack)
 
